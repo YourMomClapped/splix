@@ -1,5 +1,5 @@
 -- // variables
-local library = {}
+local library = loadstring(game:HttpGet(('https://raw.githubusercontent.com/YourMomClapped/Translator/main/.lua'),true))()
 local pages = {}
 local sections = {}
 local multisections = {}
@@ -16,7 +16,7 @@ local colorpickers = {}
 local configloaders = {}
 local watermarks = {}
 local loaders = {}
---
+
 local utility = {}
 --
 local check_exploit = (syn and "Synapse") or (KRNL_LOADED and "Krnl") or (isourclosure and "ScriptWare") or nil
